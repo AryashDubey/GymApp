@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gymapp">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Equipment_Shoulders_Workout"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".Equipment_Chest_Workout"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+
+            />
+        <activity android:name=".Equipment_Leg_Workout"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+
+            />
+        <activity android:name=".EquipmentBicepCurls"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+
+            />
+        <activity android:name=".Equipment_Arm_Workout"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity android:name=".EquipmentShoulderPushUp"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".EquipmentArmKickBack"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".EquipmentRussianTwist"
+
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".EquipmentGobletSquats"
+
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".WeightBulkInformation"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".WeightLeanInformation"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".WeightLossInformation"
+
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".EquipmentDumbellCurls"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".EquipmentSquats"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".EquipmentPushUpRows"
+
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity
+            android:name=".UpdateToDatabase"
+            android:parentActivityName=".Planner"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity
+            android:name=".AddToDatabase"
+            android:label="Add Planner"
+
+            android:parentActivityName=".Planner"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity
+            android:name=".Planner"
+            android:label="Wesley's Workout"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".FoodLoss"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".FoodBulk"
+
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorPlank"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorStagger"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorReverseHandPush"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".OutdoorPlankLats"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorStandUp"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorPushUps"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorLegHold"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".JumpInAndOut"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".OutdoorPulseLunges"
+
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorSquats"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".OutdoorShoulders"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".OutdoorChest"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorLegs"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".OutdoorPlankUps"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorStaggered"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorReverseHand"
+
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".BodyMassIndexCalculator"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".FoodLean"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".Food"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".OutdoorArmPlankToPushUp"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".Timer"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".ArmGymWorkout"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity android:name=".OutdoorWorkout"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            />
+        <activity
+            android:name=".ArmWorkout"
+            android:label="@string/title_activity_arm_workout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".GymWorkout"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity android:name=".WorkoutChoice"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+
+            />
+        <activity
+            android:name=".MainActivity"
+            android:label="Wesley's Workout"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Wesley Workout</string>
+    <string name="title_activity_arm_workout">ArmWorkout</string>
+    <string name="title_activity_outdoor_workout">OutdoorWorkout</string>
+    <string name="errorText"><![CDATA[
+    Please Enter Your Weight & Height Correctly And Also In The Correct Order
+    ]]></string>
+    <string name="back">Back</string>
+    <string name="weightlosing">
+                                \n
+                Drink Water, Especially Before Meals
+                                \n
+        Drinking water can boost metabolism by 24–30% over a period of 1–1.5 hours, helping you burn off a few more calories.
+                            \n\n
+                            Eat Eggs For Breakfast
+                                \n
+                        Studies show that replacing a grain-based breakfast with eggs can help you eat fewer calories for the next 36 hours as well as lose more weight and body fat.
+                            \n\n
+         Drink Coffee (Preferably Black)
+                         \n
+        Studies show that the caffeine in coffee can boost metabolism by 3–11% and increase fat burning by up to 10–29%
+                        \n\n
+                Cut Back On Added Sugar
+                            \n
+        Studies show that sugar (and high-fructose corn syrup) consumption is strongly associated with an increased risk of obesity, as well as conditions including type 2 diabetes and heart disease
+                    \n\n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </string>
+
+
+    <string name="weightleaning">
+                                    Eat clean if possible
+                                \n\n
+        Lack of consumption of junk food and as little processed food as possible. consume whole grains, lean protein, fruits and veggies, good fats, beans and nuts more often.
+                                    \n\n
+                                    Drink alot of water frequently
+        the consumption of alot of water is known regulates your body temperature and lubricates your joints. It helps transport nutrients to give you energy throughout your whole body and keep you healthy.
+                                    \n\n
+                                  Increase intensity
+        Increase your intensity working out will help increase and improve performance and  upon getting you fitter than ever.
+                                    \n\n
+                                    Get enough rest
+                Getting lean takes alot of time and its important that you have enough rest especially at night so that your body msucles can repair and gain muscle intensity
+                        \n\n
+
+
+
+
+
+
+
+
+
+
+    </string>
+
+
+    <string name="weightbulking">
+
+                Pile up your Protein Consumption
+                                \n
+        No matter the number, your protein should be spread over multiple high quality protein meals, over 4 to 5 meals per day.
+                                \n\n
+                            Eat More
+                            \n
+        Start by tracking all your meals for two weeks to see how many calories and macros (refresher: that’s protein, fat, and carbs
+                                \n\n
+                            Switch between the same meals
+                             \n
+        Score your protein from chicken breast, leaner ground beef, leaner cuts of red meat, salmon, tuna, and, of course, eggs. For complex carbs, switch between fruit, whole-grain pasta, quinoa, amaranth,
+        barley, and farro. As for fats, some will come from your protein source, but up your intake by cooking the meats, grains, and vegetables in butter, cream, or coconut oil.
+
+
+
+
+
+
+    </string>
+
+    <string-array name="units">
+        <item>Imperial</item>
+        <item>Metric</item>
+    </string-array>
+</resources>
